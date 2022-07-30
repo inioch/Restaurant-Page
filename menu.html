@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body class="bg-light">
+    <!-- Image -->
+    <div class="d-flex justify-content-center bg-danger">
+        <a href="/index.html"> <img class="px-4 pb-1" style="max-width: 100%;" src="/assets/zlotySmokYellow.png" alt="">
+        </a>
+    </div>
+    <!--Title with number  -->
+    <div class="d-flex justify-content-center d-md-none">
+        <div class="d-flex justify-content-center align-items-center flex-column bg-danger" style="width: 100%;">
+            <h5 class="text-light fw-bold m-2">Skawina ul. Adama Mickiewicza 48</h5>
+            <h5 class="text-light m-3 fw-bold">Tel: <span class="text-warning fs-3 fw-bold">12 660 94 18</span>
+            </h5>
+        </div>
+    </div>
+    <!-- Title with number big screen -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid d-flex justify-content-around">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item ali">
+                        <a class="nav-link mx-4 text-danger fs-3 fw-bold" aria-current="page" href="/index.html">Strona
+                            Główna</a>
+                    </li>
+                    <li class="nav-item ali">
+                        <a class="nav-link mx-4 text-danger fs-3 fw-bold" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item ali">
+                        <a class="nav-link mx-4 text-danger fs-3 fw-bold" href="#galeria">Galeria</a>
+                    </li>
+                    <li class="nav-item ali">
+                        <a class="nav-link mx-4 text-danger fs-3 fw-bold" href="#kontakt">Kontakt</a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- accordion -->
+    <div class="accordion  bg-light " id="accordionFlushExample">
+        <div class="accordion-item ">
+            <h2 class="accordion-header " id="flush-headingOne">
+                <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Przystawki
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+
+                                <th scope="col">Nazwa</th>
+                                <th scope="col">Ilość</th>
+                                <th scope="col">Cena</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Nem-sajgonki z mięsem</th>
+                                <td scope="row">3</th>
+                                <td scope="row">14zł</th>
+                            </tr>
+                            <tr>
+                                <td>Nem-sajgonki z krabem</th>
+                                <td scope="row">3</th>
+                                <td scope="row">15zł</th>
+                            </tr>
+                            <tr>
+                                <td>Paluszki krabowe w cieście sezamowym</th>
+                                <td scope="row">4</th>
+                                <td scope="row">15zł</th>
+                            </tr>
+                            <tr>
+                                <td>Kalmary w cieście</th>
+                                <td scope="row">180g</th>
+                                <td scope="row">15zł</th>
+                            </tr>
+                            <tr>
+
+                                <td>Pierożki xiu-mai po chińsku</th>
+                                <td scope="row">4</th>
+                                <td scope="row">15zł</th>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Zupy
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+
+                                    <th scope="col">Nazwa</th>
+                                    <th scope="col">Ilość</th>
+                                    <th scope="col">Cena</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Zupa wietnamska</th>
+                                    <td scope="row">250ml</th>
+                                    <td scope="row">9zł</th>
+                                </tr>
+                                <tr>
+                                    <td>Zupa won-ton</th>
+                                    <td scope="row">250ml</th>
+                                    <td scope="row">13zł</th>
+                                </tr>
+                                <tr>
+                                    <td>Zupa ramen</th>
+                                    <td scope="row">800ml</th>
+                                    <td scope="row">22zł</th>
+                                </tr>
+                                <tr>
+                                    <td>Zupa z węgorzem</th>
+                                    <td scope="row">250ml</th>
+                                    <td scope="row">14zł</th>
+                                </tr>
+                                <tr>
+
+                                    <td>Zupa z owocami morza</th>
+                                    <td scope="row">250ml</th>
+                                    <td scope="row">14zł</th>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Dania z drobiu
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+
+                                    <th scope="col">Nazwa</th>
+                                    <th scope="col">Ilość</th>
+                                    <th scope="col">Cena</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Kurczak po wietnamsku</th>
+                                    <td scope="row">400g</th>
+                                    <td scope="row">29zł</th>
+                                </tr>
+                                <tr>
+                                    <td>Kurczak "SMOK"</th>
+                                    <td scope="row">400g</th>
+                                    <td scope="row">29zł</th>
+                                </tr>
+                                <tr>
+                                    <td>Skrzydełka po wietnamsku</th>
+                                    <td scope="row">400g</th>
+                                    <td scope="row">29zł</th>
+                                </tr>
+                                <tr>
+                                    <td>Kurczak gong- bao "SMOK"</th>
+                                    <td scope="row">400g</th>
+                                    <td scope="row">29zł</th>
+                                </tr>
+                                <tr>
+
+                                    <td>Kurczak curry po tajsku</th>
+                                    <td scope="row">400g</th>
+                                    <td scope="row">29zł</th>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            Owoce Morza
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+
+                                        <th scope="col">Nazwa</th>
+                                        <th scope="col">Ilość</th>
+                                        <th scope="col">Cena</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Kalmary w sosie pikantnym</th>
+                                        <td scope="row">300g</th>
+                                        <td scope="row">36zł</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Owoce morza chrupiące</th>
+                                        <td scope="row">300g</th>
+                                        <td scope="row">38zł</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Ośmiornica smażona z papryką na ostro</th>
+                                        <td scope="row">300g</th>
+                                        <td scope="row">48zł</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Krewetki duże po tajsku.</th>
+                                        <td scope="row">8szt</th>
+                                        <td scope="row">47zł</th>
+                                    </tr>
+                                    <tr>
+
+                                        <td>Żabie udka w cieście po tajsku</th>
+                                        <td scope="row">8szt</th>
+                                        <td scope="row">47zł</th>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- galeria -->
+    <div id="galeria" class="row containter mx-auto ">
+
+        <!-- mapa -->
+        <div class="col-12 col-md-6 bg-danger pt-3 text-center">
+            <h3 class="text-light ">Dojazd do nas</h3>
+            <img class="py-3" src="/assets/mapka.png" alt="map">
+            <a class="fw-bold text-light text-center nav-link pb-4" href="#">
+                Wyświetl wiekszą mapę
+            </a>
+        </div>
+        <!-- galeria -->
+        <div class="col-12 col-md-6 bg-danger py-3">
+            <h4 class="fw-bold text-light text-center">Galeria</h4>
+            <div id="carouselExampleControls2" class="carousel slide mx-auto mt-4" data-bs-ride="carousel"
+                style="max-width: 400px;">
+                <div class=" carousel-inner">
+                    <div class="carousel-item active ">
+                        <img src="/assets/gallery/1s.jpg" class="d-block w-100 " alt="car1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/gallery/2s.jpg" class="d-block w-100" alt="car2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/gallery/3s.jpg" class="d-block w-100" alt="car2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/gallery/4s.jpg" class="d-block w-100" alt="car2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/gallery/5s.jpg" class="d-block w-100" alt="car2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/gallery/8s.jpg" class="d-block w-100" alt="car2">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="belka"></div>
+    <!-- szybki kontakt -->
+    <div id="kontakt" class="bg-light">
+        <div>
+            <h3 class="fw-bold p-3 bg-danger text-light text-center">Szybki kontakt</h3>
+        </div>
+
+        <div class="row m-4">
+            <!-- adres -->
+            <div class="fw-bold col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+                <img src="/assets/img-home.png" style="max-height: 28px; max-width: 34px;" alt="home">
+                <p class="text-success">Adres</p>
+                <p>32-050 Skawina</p>
+                <p>ul. A. Mickiewicza 48</p>
+            </div>
+            <!-- godziny otwarcia -->
+            <div class="fw-bold col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+                <img src="/assets/img-zeg.png" alt="zeg">
+                <p class="wartext-success">Godziny otwarcia</p>
+                <p>Pon- Pt: 11:00 - 21:00</p>
+                <p>Sob: 11:00-21:00</p>
+                <p>Nd:11:00-21:00</p>
+            </div>
+            <!-- ogol -->
+            <div class="fw-bold col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+                <img src="/assets/tel.png" alt="tel">
+                <p>Restauracja</p>
+                <p>Orientalna</p>
+                <p>ZŁOTY SMOK</p>
+                <h5 class="text-success fw-bold">12 660 94 18</h5>
+            </div>
+        </div>
+    </div>
+    <!-- koniec -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

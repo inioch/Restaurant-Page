@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Złoty Smok</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+    <!-- Image -->
+    <div class="d-flex justify-content-center bg-danger">
+        <a href="/"> <img class="px-4 pb-1" style="max-width: 100%;" src="./assets/zlotySmokYellow.png" alt="">
+        </a>
+    </div>
+    <!--Title with number  -->
+    <div class="d-flex justify-content-center d-md-none">
+        <div class="d-flex justify-content-center align-items-center flex-column bg-danger" style="width: 100%;">
+            <h5 class="text-light fw-bold m-2">Skawina ul. Adama Mickiewicza 48</h5>
+            <h5 class="text-light m-3 fw-bold">Tel: <span class="text-warning fs-3 fw-bold">12 660 94 18</span>
+            </h5>
+        </div>
+    </div>
+    <!-- Title with number big screen -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid d-flex justify-content-around">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item ali">
+                        <a class="nav-link mx-4 text-danger fs-3 fw-bold" aria-current="page" href="#">Strona Główna</a>
+                    </li>
+                    <li class="nav-item ali">
+                        <a class="nav-link mx-4 text-danger fs-3 fw-bold" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item ali">
+                        <a class="nav-link mx-4 text-danger fs-3 fw-bold" href="#galeria">Galeria</a>
+                    </li>
+                    <li class="nav-item ali">
+                        <a class="nav-link mx-4 text-danger fs-3 fw-bold" href="#kontakt">Kontakt</a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- carousel -->
+    <div id="carouselExampleControls" class="carousel slide mx-auto" data-bs-ride="carousel" style="max-width: 1180px">
+        <div class=" carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/car2.jpg" class="d-block w-100" alt="car1">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/car1.jpg" class="d-block w-100" alt="car2">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="belka"></div>
+    <!-- Strona głowna -->
+    <main>
+        <div class="bg-danger py-3 px-4">
+            <h2 class="mb-0 text-light fw-bold fs-1 text-center">Strona Główna</h2>
+        </div>
+        <div class="bg-light px-4 py-3 ">
+            <p>
+                Zaprasza Państwa codziennie w godzinach 11:00 - 21:00 na niezapomnianą ucztę smaków w atmosferze
+                dalekiego wschodu.
+            </p>
+            <ul>
+                Kuchnia wietnamska charakteryzuje się:
+                <li class="no-bullet">- zdrową żywnością</li>
+                <li class="no-bullet">- dużą ilością świeżych warzyw</li>
+                <li class="no-bullet">- oryginalną mieszanką przypraw opartych na ziołach i kwiatach</li>
+            </ul>
+            <p>Nasze dania przyrządzane są według przepisów czerpanych z tradycyjnej kuchni wietnamskiej.
+                Restauracja "Złoty Smok" przygotowuje potrawy na świeżo zaraz po przyjęciu zamówienia od Państwa.</p>
+        </div>
+    </main>
+    <!-- container mapa i galeria -->
+    <div id="galeria" class="row containter mx-auto ">
+
+        <!-- mapa -->
+        <div class="col-12 col-md-6 bg-danger pt-3 text-center">
+            <h3 class="text-light ">Dojazd do nas</h3>
+            <img class="py-3" src="./assets/mapka.png" alt="map">
+            <a class="fw-bold text-light text-center nav-link pb-4" href="#">
+                Wyświetl wiekszą mapę
+            </a>
+        </div>
+        <!-- galeria -->
+        <div class="col-12 col-md-6 bg-danger py-3">
+            <h4 class="fw-bold text-light text-center">Galeria</h4>
+            <div id="carouselExampleControls2" class="carousel slide mx-auto mt-4" data-bs-ride="carousel"
+                style="max-width: 400px;">
+                <div class=" carousel-inner">
+                    <div class="carousel-item active ">
+                        <img src="./assets/gallery/1s.jpg" class="d-block w-100 " alt="car1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/gallery/2s.jpg" class="d-block w-100" alt="car2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/gallery/3s.jpg" class="d-block w-100" alt="car2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/gallery/4s.jpg" class="d-block w-100" alt="car2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/gallery/5s.jpg" class="d-block w-100" alt="car2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/gallery/8s.jpg" class="d-block w-100" alt="car2">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="belka"></div>
+    <!-- szybki kontakt -->
+    <div id="kontakt" class="bg-light">
+        <div>
+            <h3 class="fw-bold p-3 bg-danger text-light text-center">Szybki kontakt</h3>
+        </div>
+
+        <div class="row m-4">
+            <!-- adres -->
+            <div class="fw-bold col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+                <img src="./assets/img-home.png" style="max-height: 28px; max-width: 34px;" alt="home">
+                <p class="text-success">Adres</p>
+                <p>32-050 Skawina</p>
+                <p>ul. A. Mickiewicza 48</p>
+            </div>
+            <!-- godziny otwarcia -->
+            <div class="fw-bold col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+                <img src="./assets/img-zeg.png" alt="zeg">
+                <p class="wartext-success">Godziny otwarcia</p>
+                <p>Pon- Pt: 11:00 - 21:00</p>
+                <p>Sob: 11:00-21:00</p>
+                <p>Nd:11:00-21:00</p>
+            </div>
+            <!-- ogol -->
+            <div class="fw-bold col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+                <img src="./assets/tel.png" alt="tel">
+                <p>Restauracja</p>
+                <p>Orientalna</p>
+                <p>ZŁOTY SMOK</p>
+                <h5 class="text-success fw-bold">12 660 94 18</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="belka"></div>
+    <!-- koniec -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
